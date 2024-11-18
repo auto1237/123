@@ -1,7 +1,8 @@
+DOMAIN,sdk.e.qq.com you
 DOMAIN,tangram.e.qq.com
-DOMAIN,tangram.e.qq.com
-DOMAIN,sdk.e.qq.com
-DOMAIN,tangram.e.qq.com
+DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+DOMAIN,wxsmsdy.video.qq.com,REJECT
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
 DOMAIN,hudong.alicdn.com
 DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,umeng.com
