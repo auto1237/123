@@ -1,0 +1,44 @@
+# 中石油去开屏广告发现
+^https:\/\/app\.95504\.net\/app\/json\/page_ad\/initPageAd\?ver= - reject
+# 中油好客e站小程序弹窗广告
+^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getPopAdData - reject
+# 中油好客e站小程序底部横幅广告
+^https:\/\/minipro\.95504\.net\/app\/json\/ad\/getIndexAdData - reject
+# 乘车码 @jinlvei ccmsupport-sz.tenpay.com
+^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
+# 移除公众号中的推广内容 //mp.weixin.qq.com
+^http:\/\/\w+\.wxs\.qq\.com\/\d+\/\d+\/(snscosdownload|snssvpdownload)\/(SH|SZ)\/reserved\/\w+ - reject-dict
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? - reject-dict
+# 星巴克 3pp.starbucks.com.cn
+^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup - reject-dict
+^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner - reject-dict
+^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/global - reject-dict
+# 货拉拉 qapi.huolala.cn, appuser-static.huolala.cn
+^https:\/\/qapi\.huolala\.cn\/ads - reject-dict
+^https:\/\/qapi\.huolala\.cn\/home_new_user - reject-dict
+^https:\/\/qapi\.huolala\.cn\/get_service_list - reject-dict
+^https:\/\/appuser-static\.huolala\.cn\/imgs - reject-dict
+# 奈雪 tm-api.pin-dao.cn
+^https:\/\/tm-api\.pin-dao\.cn\/home\/api\/index\/activeConfig\/v2 - reject-dict
+^https:\/\/tm-api\.pin-dao\.cn\/home\/api\/resource\/config\/homeBannerNodes - reject-dict
+# 华住会 api-fouth-mem.huazhu.com
+^https:\/\/api-fouth-mem\.huazhu\.com\/api\/rights\/bannerList - reject-dict
+# 首旅如家 app.homeinns.com, wx.bthhotels.com
+^https:\/\/wx\.bthhotels\.com\/miniapp\/weixin\/v1\/home\/index_banner - reject-dict
+^https:\/\/app\.homeinns\.com\/api\/v6\/indexs - reject-dict
+^https:\/\/app\.homeinns\.com\/api\/v5\/local - reject-dict
+^https:\/\/app\.homeinns\.com\/api\/v5\/index - reject-dict
+# 蜜雪冰城 mxsa.mxbc.net
+^https:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/adplace\/query - reject-dict
+# 携程旅行 m.ctrip.com
+^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds - reject-dict
+^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent - reject-dict
+# 顺丰速运+ @可莉🅥
+^https:\/\/ucmp\.sf-express\.com\/proxy\/operation-platform\/info-flow-adver\/query - reject-dict
+^https:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/memberGoods\/pointMallService\/goodsList - reject-dict
+# Meituan
+^http:\/\/103\.37\.155\.60\/fetch - reject-dict
+
+[MITM]
+hostname = app.95504.net, minipro.95504.net, ccmsupport-sz.tenpay.com, 3pp.starbucks.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, api-fouth-mem.huazhu.com
+
