@@ -2,7 +2,7 @@
 #!desc=小程序去广告
 #!homepage=
 #!author=
-#!icon=https://github.com/Koolson/Qure/blob/63be653774a6a83cd8e475a7b65f1ed68b9a0093/IconSet/Color/WeChat.png
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/63be653774a6a83cd8e475a7b65f1ed68b9a0093/IconSet/Color/WeChat.png
 
 [Rewrite]
 # 中石油去开屏广告发现
