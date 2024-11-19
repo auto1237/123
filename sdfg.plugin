@@ -1,3 +1,9 @@
+#!name=小程序去广告
+#!desc=小程序去广告
+#!homepage=
+#!author=
+#!icon=https://github.com/Koolson/Qure/blob/63be653774a6a83cd8e475a7b65f1ed68b9a0093/IconSet/Color/WeChat.png
+
 [Rewrite]
 # 中石油去开屏广告发现
 ^https:\/\/app\.95504\.net\/app\/json\/page_ad\/initPageAd\?ver= - reject
@@ -41,5 +47,5 @@
 ^http:\/\/103\.37\.155\.60\/fetch - reject-dict
 
 [MITM]
-hostname = app.95504.net, minipro.95504.net, ccmsupport-sz.tenpay.com, 3pp.starbucks.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, api-fouth-mem.huazhu.com
+hostname = app.95504.net, minipro.95504.net, ccmsupport-sz.tenpay.com, 3pp.starbucks.com.cn, qapi.huolala.cn, appuser-static.huolala.cn, m.ctrip.com, api-fouth-mem.huazhu.com, mp.weixin.qq.com, app.homeinns.com, wx.bthhotels.com, mxsa.mxbc.net
 
